@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43953C91E4CA5150078A3BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43953C81E4CA5150078A3BC /* AppDelegate.m */; };
+		A43953CC1E4CA5150078A3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43953CB1E4CA5150078A3BC /* main.m */; };
+		A43953CF1E4CA5150078A3BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43953CE1E4CA5150078A3BC /* ViewController.m */; };
+		A43953D21E4CA5150078A3BC /* vba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A43953D01E4CA5150078A3BC /* vba.xcdatamodeld */; };
+		A43953D41E4CA5150078A3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43953D31E4CA5150078A3BC /* Assets.xcassets */; };
+		A43953D71E4CA5150078A3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43953D51E4CA5150078A3BC /* Main.storyboard */; };
+		A43953E21E4CA5150078A3BC /* vbaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43953E11E4CA5150078A3BC /* vbaTests.m */; };
+		A43953ED1E4CA5150078A3BC /* vbaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43953EC1E4CA5150078A3BC /* vbaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43953DE1E4CA5150078A3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43953BC1E4CA5150078A3BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43953C31E4CA5150078A3BC;
+			remoteInfo = vba;
+		};
+		A43953E91E4CA5150078A3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43953BC1E4CA5150078A3BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43953C31E4CA5150078A3BC;
+			remoteInfo = vba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43953C41E4CA5150078A3BC /* vba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43953C71E4CA5150078A3BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A43953C81E4CA5150078A3BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A43953CB1E4CA5150078A3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A43953CD1E4CA5150078A3BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A43953CE1E4CA5150078A3BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A43953D11E4CA5150078A3BC /* vba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vba.xcdatamodel; sourceTree = "<group>"; };
+		A43953D31E4CA5150078A3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43953D61E4CA5150078A3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43953D81E4CA5150078A3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43953DD1E4CA5150078A3BC /* vbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43953E11E4CA5150078A3BC /* vbaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vbaTests.m; sourceTree = "<group>"; };
+		A43953E31E4CA5150078A3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43953E81E4CA5150078A3BC /* vbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43953EC1E4CA5150078A3BC /* vbaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vbaUITests.m; sourceTree = "<group>"; };
+		A43953EE1E4CA5150078A3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43953C11E4CA5150078A3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43953DA1E4CA5150078A3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43953E51E4CA5150078A3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43953BB1E4CA5150078A3BC = {
+			isa = PBXGroup;
+			children = (
+				A43953C61E4CA5150078A3BC /* vba */,
+				A43953E01E4CA5150078A3BC /* vbaTests */,
+				A43953EB1E4CA5150078A3BC /* vbaUITests */,
+				A43953C51E4CA5150078A3BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43953C51E4CA5150078A3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43953C41E4CA5150078A3BC /* vba.app */,
+				A43953DD1E4CA5150078A3BC /* vbaTests.xctest */,
+				A43953E81E4CA5150078A3BC /* vbaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43953C61E4CA5150078A3BC /* vba */ = {
+			isa = PBXGroup;
+			children = (
+				A43953C71E4CA5150078A3BC /* AppDelegate.h */,
+				A43953C81E4CA5150078A3BC /* AppDelegate.m */,
+				A43953CD1E4CA5150078A3BC /* ViewController.h */,
+				A43953CE1E4CA5150078A3BC /* ViewController.m */,
+				A43953D31E4CA5150078A3BC /* Assets.xcassets */,
+				A43953D51E4CA5150078A3BC /* Main.storyboard */,
+				A43953D81E4CA5150078A3BC /* Info.plist */,
+				A43953D01E4CA5150078A3BC /* vba.xcdatamodeld */,
+				A43953CA1E4CA5150078A3BC /* Supporting Files */,
+			);
+			path = vba;
+			sourceTree = "<group>";
+		};
+		A43953CA1E4CA5150078A3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43953CB1E4CA5150078A3BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43953E01E4CA5150078A3BC /* vbaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43953E11E4CA5150078A3BC /* vbaTests.m */,
+				A43953E31E4CA5150078A3BC /* Info.plist */,
+			);
+			path = vbaTests;
+			sourceTree = "<group>";
+		};
+		A43953EB1E4CA5150078A3BC /* vbaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A43953EC1E4CA5150078A3BC /* vbaUITests.m */,
+				A43953EE1E4CA5150078A3BC /* Info.plist */,
+			);
+			path = vbaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43953C31E4CA5150078A3BC /* vba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43953F11E4CA5150078A3BC /* Build configuration list for PBXNativeTarget "vba" */;
+			buildPhases = (
+				A43953C01E4CA5150078A3BC /* Sources */,
+				A43953C11E4CA5150078A3BC /* Frameworks */,
+				A43953C21E4CA5150078A3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vba;
+			productName = vba;
+			productReference = A43953C41E4CA5150078A3BC /* vba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43953DC1E4CA5150078A3BC /* vbaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43953F41E4CA5150078A3BC /* Build configuration list for PBXNativeTarget "vbaTests" */;
+			buildPhases = (
+				A43953D91E4CA5150078A3BC /* Sources */,
+				A43953DA1E4CA5150078A3BC /* Frameworks */,
+				A43953DB1E4CA5150078A3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43953DF1E4CA5150078A3BC /* PBXTargetDependency */,
+			);
+			name = vbaTests;
+			productName = vbaTests;
+			productReference = A43953DD1E4CA5150078A3BC /* vbaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43953E71E4CA5150078A3BC /* vbaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43953F71E4CA5150078A3BC /* Build configuration list for PBXNativeTarget "vbaUITests" */;
+			buildPhases = (
+				A43953E41E4CA5150078A3BC /* Sources */,
+				A43953E51E4CA5150078A3BC /* Frameworks */,
+				A43953E61E4CA5150078A3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43953EA1E4CA5150078A3BC /* PBXTargetDependency */,
+			);
+			name = vbaUITests;
+			productName = vbaUITests;
+			productReference = A43953E81E4CA5150078A3BC /* vbaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43953BC1E4CA5150078A3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Toth";
+				TargetAttributes = {
+					A43953C31E4CA5150078A3BC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A43953DC1E4CA5150078A3BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A43953C31E4CA5150078A3BC;
+					};
+					A43953E71E4CA5150078A3BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A43953C31E4CA5150078A3BC;
+					};
+				};
+			};
+			buildConfigurationList = A43953BF1E4CA5150078A3BC /* Build configuration list for PBXProject "vba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43953BB1E4CA5150078A3BC;
+			productRefGroup = A43953C51E4CA5150078A3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43953C31E4CA5150078A3BC /* vba */,
+				A43953DC1E4CA5150078A3BC /* vbaTests */,
+				A43953E71E4CA5150078A3BC /* vbaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43953C21E4CA5150078A3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43953D41E4CA5150078A3BC /* Assets.xcassets in Resources */,
+				A43953D71E4CA5150078A3BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43953DB1E4CA5150078A3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43953E61E4CA5150078A3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43953C01E4CA5150078A3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43953CF1E4CA5150078A3BC /* ViewController.m in Sources */,
+				A43953D21E4CA5150078A3BC /* vba.xcdatamodeld in Sources */,
+				A43953CC1E4CA5150078A3BC /* main.m in Sources */,
+				A43953C91E4CA5150078A3BC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43953D91E4CA5150078A3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43953E21E4CA5150078A3BC /* vbaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43953E41E4CA5150078A3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43953ED1E4CA5150078A3BC /* vbaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43953DF1E4CA5150078A3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43953C31E4CA5150078A3BC /* vba */;
+			targetProxy = A43953DE1E4CA5150078A3BC /* PBXContainerItemProxy */;
+		};
+		A43953EA1E4CA5150078A3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43953C31E4CA5150078A3BC /* vba */;
+			targetProxy = A43953E91E4CA5150078A3BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43953D51E4CA5150078A3BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43953D61E4CA5150078A3BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43953EF1E4CA5150078A3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A43953F01E4CA5150078A3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A43953F21E4CA5150078A3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.vba.vba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A43953F31E4CA5150078A3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.vba.vba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A43953F51E4CA5150078A3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vbaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.vba.vbaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vba.app/Contents/MacOS/vba";
+			};
+			name = Debug;
+		};
+		A43953F61E4CA5150078A3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vbaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.vba.vbaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vba.app/Contents/MacOS/vba";
+			};
+			name = Release;
+		};
+		A43953F81E4CA5150078A3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vbaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.vba.vbaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vba;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A43953F91E4CA5150078A3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vbaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualpianist.vba.vbaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vba;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43953BF1E4CA5150078A3BC /* Build configuration list for PBXProject "vba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43953EF1E4CA5150078A3BC /* Debug */,
+				A43953F01E4CA5150078A3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43953F11E4CA5150078A3BC /* Build configuration list for PBXNativeTarget "vba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43953F21E4CA5150078A3BC /* Debug */,
+				A43953F31E4CA5150078A3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43953F41E4CA5150078A3BC /* Build configuration list for PBXNativeTarget "vbaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43953F51E4CA5150078A3BC /* Debug */,
+				A43953F61E4CA5150078A3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43953F71E4CA5150078A3BC /* Build configuration list for PBXNativeTarget "vbaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43953F81E4CA5150078A3BC /* Debug */,
+				A43953F91E4CA5150078A3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A43953D01E4CA5150078A3BC /* vba.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A43953D11E4CA5150078A3BC /* vba.xcdatamodel */,
+			);
+			currentVersion = A43953D11E4CA5150078A3BC /* vba.xcdatamodel */;
+			path = vba.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A43953BC1E4CA5150078A3BC /* Project object */;
+}
